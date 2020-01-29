@@ -1,1 +1,1 @@
-# XtreamCodes-API.github.io
+# XC-API V2
