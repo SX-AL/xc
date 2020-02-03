@@ -1,6 +1,6 @@
 #SX.AL
 
-[b]INSTALL NEW EARLY RELEASE![/b]
+## INSTALL NEW EARLY RELEASE!
 
 ```
 mkdir -p /home/xtreamcodes/iptv_xtream_codes/admin_backup && mkdir -p /home/xtreamcodes/iptv_xtream_codes/admin_backup/adtools_backup
