@@ -1,10 +1,9 @@
-#SX.AL
+#'°√SX</>.AL
 
 ## INSTALL NEW EARLY RELEASE!
 
 ```
-mkdir -p /home/xtreamcodes/iptv_xtream_codes/admin_backup 
-&& mkdir -p /home/xtreamcodes/iptv_xtream_codes/admin_backup/adtools_backup
+mkdir -p /home/xtreamcodes/iptv_xtream_codes/admin_backup && mkdir -p /home/xtreamcodes/iptv_xtream_codes/admin_backup/adtools_backup 
 && cp -avr /home/xtreamcodes/iptv_xtream_codes/adtools/* /home/xtreamcodes/iptv_xtream_codes/admin_backup/adtools_backup 
 && cp -avr /home/xtreamcodes/iptv_xtream_codes/admin/* /home/xtreamcodes/iptv_xtream_codes/admin_backup && 
 apt-get install unzip e2fsprogs python-paramiko -y && chattr -i /home/xtreamcodes/iptv_xtream_codes/GeoLite2.mmdb 
@@ -72,7 +71,7 @@ wget http://DNSHERE.ml/ui/ui_install/LB_INSTALL/Ubuntu14_ExtremeUI_V2_Install.sh
 
 ```
 apt-get update && apt-get install e2fsprogs -y && chattr -i /home/xtreamcodes/iptv_xtream_codes/GeoLite2.mmdb 
-; wget https://archive.org/download/geolite2_201910/GeoLite2.mmdb -O /home/xtreamcodes/iptv_xtream_codes/GeoLite2.mmdb 
+&& wget https://archive.org/download/geolite2_201910/GeoLite2.mmdb -O /home/xtreamcodes/iptv_xtream_codes/GeoLite2.mmdb 
 && chown xtreamcodes.xtreamcodes  /home/xtreamcodes/iptv_xtream_codes/GeoLite2.mmdb 
 && chattr +i /home/xtreamcodes/iptv_xtream_codes/GeoLite2.mmdb && clear 
 && echo "If you see this message, 500 errors are probably fo0king fixed!" && /etc/init.d/xtreamcodes
@@ -97,12 +96,12 @@ sudo apt-get install libcurl3 -y
 
 ```
 apt-get update ; apt-get install libxslt1-dev libcurl3 libgeoip-dev python -y 
-; wget https://worldofiptv.com/downloads/xtreamui/install.py ; sudo python install.py
+&& wget https://worldofiptv.com/downloads/xtreamui/install.py ; sudo python install.py
 ```
 
 @urgodfather's Mirror
 
 ```
 apt-get update ; apt-get install libxslt1-dev libcurl3 libgeoip-dev python -y 
-; wget https://panel.undaderadaar.cf/install/install.py ; sudo python install.py
+&& wget https://panel.undaderadaar.cf/install/install.py ; sudo python install.py
 ```
