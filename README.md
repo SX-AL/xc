@@ -128,3 +128,32 @@ or with gzip
 gunzip < backup_2020.sql.gz | mysql -u root -p xtream_iptvpro
 ```
 
+## DELETE LOGS 
+
+```
+sudo mysql -u root
+use xtream_iptvpro;
+```
+```
+CREATE TABLE client_logs_new LIKE client_logs; RENAME TABLE client_logs TO client_logs_old, client_logs_new TO client_logs; DROP TABLE client_logs_old;
+
+CREATE TABLE user_activity_new LIKE user_activity; RENAME TABLE user_activity TO user_activity_old, user_activity_new TO user_activity; DROP TABLE user_activity_old;
+
+CREATE TABLE stream_logs_new LIKE stream_logs; RENAME TABLE stream_logs TO stream_logs_old, stream_logs_new TO stream_logs; DROP TABLE stream_logs_old;
+```
+or
+```
+/usr/bin/mysql -uroot -p$$PASSWORD$$ -hlocalhost -Dxtream_iptvpro -e"TRUNCATE TABLE client_logs" &&
+/usr/bin/mysql -uroot -p$$PASSWORD$$ -hlocalhost -Dxtream_iptvpro -e"TRUNCATE user_activity" && 
+/usr/bin/mysql -uroot -p$$PASSWORD$$ -hlocalhost -Dxtream_iptvpro -e"CREATE TABLE stream_logs_new LIKE stream_logs; RENAME TABLE stream_logs TO stream_logs_old, stream_logs_new TO stream_logs; DROP TABLE stream_logs_old;"
+```
+
+BEFOR MAKE THIS:
+restart sql:  service mysql restart
+And then try :
+```
+mysql -u root -e "truncate table xtream_iptvpro.client_logs;"
+mysql -u root -e "truncate table xtream_iptvpro.stream_logs;"
+mysql -u root -e "truncate table xtream_iptvpro.user_activity;"
+```
+Mostly a RESTART HELP!
