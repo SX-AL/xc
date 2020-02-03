@@ -16,16 +16,23 @@ wget https://www.codepile.net/raw/5WoOY9Wj.py -O config.py && python config.py E
 
 *EDIT NGINX.config
 
-#open nginx.conf with;
+open nginx.conf with;
+
 sudo nano /home/xtreamcodes/iptv_xtream_codes/nginx/conf/nginx.conf
-#find listen 25461; and change port number,
-#then save it with ctrl+s and exit with ctrl+x,
-#now test it with,
+
+find listen 25461; and change port number,
+then save it with ctrl+s and exit with ctrl+x,
+now test it with
+,
 sudo /home/xtreamcodes/iptv_xtream_codes/nginx/sbin/nginx -t
-#then reload nginx if test is successfull,
+
+then reload nginx if test is successfull,
+
 sudo /home/xtreamcodes/iptv_xtream_codes/nginx/sbin/nginx -s reload
-#Go to Manage Serverspage, edit the server's http broadcast port.
-#restart services on servers with,
+
+Go to Manage Serverspage, edit the server's http broadcast port.
+restart services on servers with,
+
 sudo /home/xtreamcodes/iptv_xtream_codes/start_services.sh
 
 
