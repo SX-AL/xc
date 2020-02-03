@@ -58,7 +58,10 @@ restart services on servers with,
 ```
 sudo /home/xtreamcodes/iptv_xtream_codes/start_services.sh
 ```
-
+or
+```
+/etc/init.d/xtreamcodes
+```
 
 ## INSTALL LB WITH UBUNTU 14
 
@@ -105,3 +108,23 @@ apt-get update ; apt-get install libxslt1-dev libcurl3 libgeoip-dev python -y
 apt-get update ; apt-get install libxslt1-dev libcurl3 libgeoip-dev python -y 
 && wget https://panel.undaderadaar.cf/install/install.py ; sudo python install.py
 ```
+
+## BACKUP DATABASE
+
+```
+mysqldump -u root -p$$PASSWORD$$ xtream_iptvpro | gzip > /home/XCBackupUI_$(date +\%m-\%d-\%Y\_@_\%H-\%M-\%S).gz
+```
+or
+```
+mysqldump xtream_iptvpro > xtcdump_backUpDB.sql
+```
+
+## RESTORE DATABASE
+```
+mysql -u root -pPA$$WORD xtream_iptvpro < /root/backup_2020.sql
+```
+or with gzip
+```
+gunzip < backup_2020.sql.gz | mysql -u root -p xtream_iptvpro
+```
+
