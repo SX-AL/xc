@@ -147,9 +147,14 @@ or
 /usr/bin/mysql -uroot -p$$PASSWORD$$ -hlocalhost -Dxtream_iptvpro -e"TRUNCATE user_activity" && 
 /usr/bin/mysql -uroot -p$$PASSWORD$$ -hlocalhost -Dxtream_iptvpro -e"CREATE TABLE stream_logs_new LIKE stream_logs; RENAME TABLE stream_logs TO stream_logs_old, stream_logs_new TO stream_logs; DROP TABLE stream_logs_old;"
 ```
+## RESTART MYSQL UBUNTU 18 & 14
 
 BEFORE MAKE THIS:
-restart sql:  `service mysql restart`
+restart sql U14:  `service mysql restart`
+restart sql U18: `/etc/init.d/mysql restart`
+
+check mysql status: `service mysql status` 
+
 And then try :
 ```
 mysql -u root -e "truncate table xtream_iptvpro.client_logs;"
@@ -158,3 +163,5 @@ mysql -u root -e "truncate table xtream_iptvpro.user_activity;"
 ```
 Mostly a RESTART HELP!
 ```sudo reboot```
+
+
