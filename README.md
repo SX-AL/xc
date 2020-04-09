@@ -3,16 +3,16 @@
 ## INSTALL NEW EARLY RELEASE!
 
 ```
-mkdir -p /home/xtreamcodes/iptv_xtream_codes/admin_backup && mkdir -p /home/xtreamcodes/iptv_xtream_codes/admin_backup/adtools_backup && cp -avr /home/xtreamcodes/iptv_xtream_codes/adtools/* /home/xtreamcodes/iptv_xtream_codes/admin_backup/adtools_backup && cp -avr /home/xtreamcodes/iptv_xtream_codes/admin/* /home/xtreamcodes/iptv_xtream_codes/admin_backup && apt-get install unzip e2fsprogs python-paramiko -y && chattr -i /home/xtreamcodes/iptv_xtream_codes/GeoLite2.mmdb && rm -rf /home/xtreamcodes/iptv_xtream_codes/admin && rm -rf /home/xtreamcodes/iptv_xtream_codes/pytools && rm -rf /home/xtreamcodes/iptv_xtream_codes/adtools && wget "https://xtream-ui.com/install/early.php?username=$USERNAME$&password=$PASSWORD$" -O /tmp/update.zip -o /dev/null && unzip /tmp/update.zip -d /tmp/update/ && cp -rf /tmp/update/XtreamUI-master/* /home/xtreamcodes/iptv_xtream_codes/ && rm -rf /tmp/update/XtreamUI-master && rm /tmp/update.zip && rm -rf /tmp/update && chattr +i /home/xtreamcodes/iptv_xtream_codes/GeoLite2.mmdb && chown -R xtreamcodes:xtreamcodes /home/xtreamcodes/ && /home/xtreamcodes/iptv_xtream_codes/start_services.sh
+apt-get update && mkdir -p /home/xtreamcodes/iptv_xtream_codes/admin_backup && mkdir -p /home/xtreamcodes/iptv_xtream_codes/admin_backup/adtools_backup && cp -avr /home/xtreamcodes/iptv_xtream_codes/adtools/* /home/xtreamcodes/iptv_xtream_codes/admin_backup/adtools_backup && cp -avr /home/xtreamcodes/iptv_xtream_codes/admin/* /home/xtreamcodes/iptv_xtream_codes/admin_backup && apt-get install unzip e2fsprogs python-paramiko -y && chattr -i /home/xtreamcodes/iptv_xtream_codes/GeoLite2.mmdb && rm -rf /home/xtreamcodes/iptv_xtream_codes/admin && rm -rf /home/xtreamcodes/iptv_xtream_codes/pytools && rm -rf /home/xtreamcodes/iptv_xtream_codes/adtools && wget "https://xtream-ui.com/install/early.php?username=$USERNAME$&password=$PASSWORD$" -O /tmp/update.zip -o /dev/null && unzip /tmp/update.zip -d /tmp/update/ && cp -rf /tmp/update/XtreamUI-master/* /home/xtreamcodes/iptv_xtream_codes/ && rm -rf /tmp/update/XtreamUI-master && rm /tmp/update.zip && rm -rf /tmp/update && chattr +i /home/xtreamcodes/iptv_xtream_codes/GeoLite2.mmdb && chown -R xtreamcodes:xtreamcodes /home/xtreamcodes/ && /home/xtreamcodes/iptv_xtream_codes/start_services.sh
  ```
 
-## INSTALL NEW EARLY RELEASE AND ALSO UPDATE FFMPEG
+## INSTALL NEW EARLY RELEASE MANUALLY!
 
 ```
-mkdir -p /home/xtreamcodes/iptv_xtream_codes/admin_backup && mkdir -p /home/xtreamcodes/iptv_xtream_codes/admin_backup/adtools_backup && cp -avr /home/xtreamcodes/iptv_xtream_codes/adtools/* /home/xtreamcodes/iptv_xtream_codes/admin_backup/adtools_backup && cp -avr /home/xtreamcodes/iptv_xtream_codes/admin/* /home/xtreamcodes/iptv_xtream_codes/admin_backup && apt-get update && apt-get install unzip e2fsprogs python-paramiko -y && chattr -i /home/xtreamcodes/iptv_xtream_codes/GeoLite2.mmdb && rm -rf /home/xtreamcodes/iptv_xtream_codes/admin && rm -rf /home/xtreamcodes/iptv_xtream_codes/pytools && rm -rf /home/xtreamcodes/iptv_xtream_codes/adtools && wget "http://DOMAIN.ml/ui/update_ui/release_22e.zip" -O /tmp/update.zip -o /dev/null && unzip /tmp/update.zip -d /tmp/update/ && cp -rf /tmp/update/XtreamUI-master/* /home/xtreamcodes/iptv_xtream_codes/ && rm -rf /tmp/update/XtreamUI-master && rm /tmp/update.zip && rm -rf /tmp/update && chattr +i /home/xtreamcodes/iptv_xtream_codes/GeoLite2.mmdb && chown -R xtreamcodes:xtreamcodes /home/xtreamcodes/ && chmod +x /home/xtreamcodes/iptv_xtream_codes/nginx_rtmp/sbin/nginx_rtmp && sudo chmod +x /home/xtreamcodes/iptv_xtream_codes/nginx/sbin/nginx && /home/xtreamcodes/iptv_xtream_codes/start_services.sh
+apt-get update && mkdir -p /home/xtreamcodes/iptv_xtream_codes/admin_backup && mkdir -p /home/xtreamcodes/iptv_xtream_codes/admin_backup/adtools_backup && cp -avr /home/xtreamcodes/iptv_xtream_codes/adtools/* /home/xtreamcodes/iptv_xtream_codes/admin_backup/adtools_backup && cp -avr /home/xtreamcodes/iptv_xtream_codes/admin/* /home/xtreamcodes/iptv_xtream_codes/admin_backup && apt-get update && apt-get install unzip e2fsprogs python-paramiko -y && chattr -i /home/xtreamcodes/iptv_xtream_codes/GeoLite2.mmdb && rm -rf /home/xtreamcodes/iptv_xtream_codes/admin && rm -rf /home/xtreamcodes/iptv_xtream_codes/pytools && rm -rf /home/xtreamcodes/iptv_xtream_codes/adtools && wget "http://DOMAIN.ml/ui/update_ui/release_22e.zip" -O /tmp/update.zip -o /dev/null && unzip /tmp/update.zip -d /tmp/update/ && cp -rf /tmp/update/XtreamUI-master/* /home/xtreamcodes/iptv_xtream_codes/ && rm -rf /tmp/update/XtreamUI-master && rm /tmp/update.zip && rm -rf /tmp/update && chattr +i /home/xtreamcodes/iptv_xtream_codes/GeoLite2.mmdb && chown -R xtreamcodes:xtreamcodes /home/xtreamcodes/ && chmod +x /home/xtreamcodes/iptv_xtream_codes/nginx_rtmp/sbin/nginx_rtmp && sudo chmod +x /home/xtreamcodes/iptv_xtream_codes/nginx/sbin/nginx && /home/xtreamcodes/iptv_xtream_codes/start_services.sh
 ```
 
-## UPDATE DATABASE TABLES
+## UPDATE DB TABLES MANUALLY!
 
 ```
 touch /home/xtreamcodes/iptv_xtream_codes/admin/.update && chown -R xtreamcodes:xtreamcodes /home/xtreamcodes/ && echo "" > /home/xtreamcodes/iptv_xtream_codes/admin/.update && /home/xtreamcodes/iptv_xtream_codes/start_services.sh
@@ -148,8 +148,8 @@ or
 /usr/bin/mysql -uroot -p$$PASSWORD$$ -hlocalhost -Dxtream_iptvpro -e"CREATE TABLE stream_logs_new LIKE stream_logs; RENAME TABLE stream_logs TO stream_logs_old, stream_logs_new TO stream_logs; DROP TABLE stream_logs_old;"
 ```
 
-BEFOR MAKE THIS:
-restart sql:  service mysql restart
+BEFORE MAKE THIS:
+restart sql:  `service mysql restart`
 And then try :
 ```
 mysql -u root -e "truncate table xtream_iptvpro.client_logs;"
@@ -157,3 +157,4 @@ mysql -u root -e "truncate table xtream_iptvpro.stream_logs;"
 mysql -u root -e "truncate table xtream_iptvpro.user_activity;"
 ```
 Mostly a RESTART HELP!
+```sudo reboot```
