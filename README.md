@@ -164,4 +164,11 @@ mysql -u root -e "truncate table xtream_iptvpro.user_activity;"
 Mostly a RESTART HELP!
 ```sudo reboot```
 
-
+## FIX HIGH RAM / STREAM RESTARTS / TPMFS 100%
+```
+rm -rf /home/xtreamcodes/iptv_xtream_codes/streams/* ; /etc/init.d/xtreamcodes
+```
+or
+```
+find /home/xtreamcodes/iptv_xtream_codes/streams/* -delete > /dev/null
+```
