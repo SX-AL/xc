@@ -76,7 +76,7 @@ apt-get update ; apt-get install libxslt1-dev libcurl3 libgeoip-dev python -y ; 
 ## INSTALL LB WITH UBUNTU 14
 
 ```
-apt-get update ; apt-get install libxslt1-dev libcurl3 libgeoip-dev python -y ; wget http://DNSHERE.ml/ui/ui_install/LB_INSTALL/Ubuntu14_ExtremeUI_V2_Install.sh ; chmod +x Ubuntu14_ExtremeUI_V2_Install.sh
+apt-get update ; apt-get install libxslt1-dev libcurl3 libgeoip-dev python -y ; wget http://DNSHERE/ui/ui_install/LB_INSTALL/Ubuntu14_ExtremeUI_V2_Install.sh ; chmod +x Ubuntu14_ExtremeUI_V2_Install.sh ; sudo ./Ubuntu14_ExtremeUI_V2_Install.sh
 ```
 
 
