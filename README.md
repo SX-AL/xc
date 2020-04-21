@@ -65,10 +65,18 @@ or
 /etc/init.d/xtreamcodes
 ```
 
+## INSTALL MAIN XC
+```
+apt-get update ; apt-get install libxslt1-dev libcurl3 libgeoip-dev python -y ; wget http://DNSHERE.ml/ui/officialXCui/install.offline.with.admin.py -O install.py ; sudo python install.py
+```
+OR Emre's Install.py
+```
+apt-get update ; apt-get install libxslt1-dev libcurl3 libgeoip-dev python -y ; wget https://www.codepile.net/raw/rxA1NBx0.py -O install.py ; sudo python install.py
+```
 ## INSTALL LB WITH UBUNTU 14
 
 ```
-wget http://DNSHERE.ml/ui/ui_install/LB_INSTALL/Ubuntu14_ExtremeUI_V2_Install.sh ; chmod +x Ubuntu14_ExtremeUI_V2_Install.sh
+apt-get update ; apt-get install libxslt1-dev libcurl3 libgeoip-dev python -y ; wget http://DNSHERE.ml/ui/ui_install/LB_INSTALL/Ubuntu14_ExtremeUI_V2_Install.sh ; chmod +x Ubuntu14_ExtremeUI_V2_Install.sh
 ```
 
 
