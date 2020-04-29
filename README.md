@@ -1,8 +1,12 @@
 #'°√SX</>.AL
 
 ## LINUX COMMANDS CHEAT SHEET
+```
 https://www.linuxtrainingacademy.com/linux-commands-cheat-sheet/
+```
+```
 https://www.tecmint.com/linux-commands-cheat-sheet/#iptables
+```
 
 ## INSTALL NEW EARLY RELEASE!
 
