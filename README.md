@@ -10,6 +10,10 @@ https://www.tecmint.com/linux-commands-cheat-sheet/#iptables
 ```
 https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-ufw-on-ubuntu-14-04
 ```
+```
+https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-using-iptables-on-ubuntu-14-04
+```
+
 ## INSTALL NEW EARLY RELEASE!
 
 ```
