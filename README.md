@@ -32,6 +32,12 @@ apt-get update && mkdir -p /home/xtreamcodes/iptv_xtream_codes/admin_backup && m
 touch /home/xtreamcodes/iptv_xtream_codes/admin/.update && chown -R xtreamcodes:xtreamcodes /home/xtreamcodes/ && echo "" > /home/xtreamcodes/iptv_xtream_codes/admin/.update && /home/xtreamcodes/iptv_xtream_codes/start_services.sh
 ```
 
+## PERMISSIONS
+
+```
+chmod -R 0777 /home/xtreamcodes ; chown -R xtreamcodes:xtreamcodes /home/xtreamcodes
+```
+
 
 ## DECRYPT & ENCRYPT DB INFORMATION
 
