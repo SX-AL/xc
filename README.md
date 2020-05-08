@@ -42,6 +42,11 @@ chmod -R 0777 /home/xtreamcodes ; chown -R xtreamcodes:xtreamcodes /home/xtreamc
 ```
 chmod -R 0777 /home/xtreamcodes && chown -R xtreamcodes:xtreamcodes /home/xtreamcodes/ && chmod +x /home/xtreamcodes/iptv_xtream_codes/nginx_rtmp/sbin/nginx_rtmp && sudo chmod +x /home/xtreamcodes/iptv_xtream_codes/nginx/sbin/nginx && /etc/init.d/xtreamcodes
 ```
+```
+find /home/xtreamcodes/iptv_xtream_codes/admin/ -type f -exec chmod 644 {} \; && find /home/xtreamcodes/iptv_xtream_codes/admin/ -type d -exec chmod 755 {} \; && \
+find /home/xtreamcodes/iptv_xtream_codes/wwwdir/ -type f -exec chmod 644 {} \; && find /home/xtreamcodes/iptv_xtream_codes/wwwdir/ -type d -exec chmod 755 {} \; && \
+chmod +x /home/xtreamcodes/iptv_xtream_codes/nginx/sbin/nginx && chmod +x /home/xtreamcodes/iptv_xtream_codes/nginx_rtmp/sbin/nginx_rtmp
+```
 
 ## DECRYPT & ENCRYPT DB INFORMATION
 
