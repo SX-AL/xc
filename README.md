@@ -109,7 +109,7 @@ apt-get update ; apt-get install libxslt1-dev libcurl3 libgeoip-dev python -y ; 
 
 ## MOVE ADMIN TO THE RIGHT FOLDER ( INSTALL MAIN )
 ```
-mv  -v /home/xtreamcodes/XtreamUI-master/* /home/xtreamcodes/iptv_xtream_codes/
+mv -v /home/xtreamcodes/XtreamUI-master/* /home/xtreamcodes/iptv_xtream_codes/
 ```
 
 ## ERROR 500 FIX
