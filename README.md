@@ -60,6 +60,17 @@ and then Run same file but with ENCRYPT and change to your New Main info
 wget https://www.codepile.net/raw/5WoOY9Wj.py -O config.py && python config.py ENCRYPT && rm config.py
 ```
 
+## CHANGE MYSQL PASSWORD 
+
+```mysql -u root -p$$mysqlpassword$$```
+
+```ALTER USER 'user_iptvpro'@'%' IDENTIFIED BY 'NEW-PASS-HERE';```
+
+```FLUSH PRIVILEGES;```
+
+- Change to new pass on config.py with Decrypt & Encrypt on Main and all LB's.
+
+Restart XC/MySQL if needed only / reboot.
 
 ## EDIT NGINX.config
 
