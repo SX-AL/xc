@@ -51,13 +51,13 @@ chmod +x /home/xtreamcodes/iptv_xtream_codes/nginx/sbin/nginx && chmod +x /home/
 ## DECRYPT & ENCRYPT DB INFORMATION
 
 ```
-wget https://raw.githubusercontent.com/SX-AL/xc/master/encrypt_decrypt -O config.py && python config.py DECRYPT && rm config.py
+wget https://raw.githubusercontent.com/SX-AL/xc/master/encrypt_decrypt.py -O config.py && python config.py DECRYPT && rm config.py
 ```
 
 and then Run same file but with ENCRYPT and change to your New Main info 
  
 ```
-wget https://raw.githubusercontent.com/SX-AL/xc/master/encrypt_decrypt -O config.py && python config.py ENCRYPT && rm config.py
+wget https://raw.githubusercontent.com/SX-AL/xc/master/encrypt_decrypt.py -O config.py && python config.py ENCRYPT && rm config.py
 ```
 
 ## CHANGE MYSQL PASSWORD 
