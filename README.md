@@ -246,4 +246,4 @@ or
 ```
 
 ## IP-TABLES
-Check IF ip is blocked/logged: ```iptables -L INPUT -v -n | grep "195.154.221.172"```
+Check IF ip is blocked/logged: ```iptables -L INPUT -v -n | grep "IPAddressHERE"```
