@@ -208,11 +208,14 @@ or
 ```
 ## RESTART MYSQL UBUNTU 18 & 14
 
-restart sql U14:  
-```service mysql restart```
-
-restart sql U18: 
-```/etc/init.d/mysql restart```
+Restart sql U14:  
+```
+service mysql restart
+```
+Restart sql U18: 
+```
+/etc/init.d/mysql restart
+```
 
 Truncate MySQL logs: 
 ```
