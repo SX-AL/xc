@@ -19,6 +19,9 @@ https://dev.mysql.com/doc/refman/5.7/en/mysqldump.html
 ```
 https://gist.github.com/fevangelou/fb72f36bbe333e059b66
 ```
+```
+https://www.globo.tech/learning-center/tweak-mysql-server/
+```
 
 ## INSTALL NEW EARLY RELEASE!
 
