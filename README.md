@@ -202,9 +202,10 @@ or
 ```
 ## RESTART MYSQL UBUNTU 18 & 14
 
-BEFORE MAKE THIS:
-restart sql U14:  ```service mysql restart```
-restart sql U18: ```/etc/init.d/mysql restart```
+restart sql U14:  
+```service mysql restart```
+restart sql U18: 
+```/etc/init.d/mysql restart```
 Truncate MySQL logs: 
 ```
 truncate /var/lib/mysql/mysql_error.log --size 0
@@ -223,7 +224,7 @@ mysql -u root -e "truncate table xtream_iptvpro.user_activity;"
 Mostly a RESTART HELP!
 ```sudo reboot```
 
-## FIX HIGH RAM / STREAM RESTARTS / TPMFS 100%
+## FIX/DELETE HIGH RAM DUE TO STREAM LOGS? / STREAM RESTARTS / TPMFS 100%
 ```
 rm -rf /home/xtreamcodes/iptv_xtream_codes/streams/* ; /etc/init.d/xtreamcodes
 ```
