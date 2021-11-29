@@ -25,6 +25,9 @@ https://www.globo.tech/learning-center/tweak-mysql-server/
 ```
 https://linuxize.com/post/remove-directory-linux/
 ```
+```
+https://linuxize.com/post/grep-multiple-patterns/
+```
 
 ## INSTALL NEW EARLY RELEASE!
 
