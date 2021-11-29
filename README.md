@@ -60,6 +60,12 @@ and then Run same file but with ENCRYPT and change to your New Main info
 wget https://raw.githubusercontent.com/SX-AL/xc/master/encrypt_decrypt.py -O config.py && python config.py ENCRYPT && rm config.py
 ```
 
+and then delete stream logs + restart xtreamcodes
+
+```
+rm -rf /home/xtreamcodes/iptv_xtream_codes/streams/* ; /etc/init.d/xtreamcodes
+```
+
 ## CHANGE MYSQL PASSWORD 
 
 ```mysql -u root -p$$mysqlpassword$$```
