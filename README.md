@@ -205,8 +205,12 @@ or
 BEFORE MAKE THIS:
 restart sql U14:  `service mysql restart`
 restart sql U18: `/etc/init.d/mysql restart`
-
+Truncate MySQL logs: 
+`truncate /var/lib/mysql/mysql_error.log --size 0`
+`truncate /var/log/mysql/error.log --size 0`
 check mysql status: `service mysql status` 
+
+check mysql.service: `sudo nano /lib/systemd/system/mysql.service`
 
 And then try :
 ```
@@ -224,4 +228,17 @@ rm -rf /home/xtreamcodes/iptv_xtream_codes/streams/* ; /etc/init.d/xtreamcodes
 or
 ```
 find /home/xtreamcodes/iptv_xtream_codes/streams/* -delete > /dev/null
+```
+
+## CHECK/SEE OPEN PORTS COMMAND
+```
+sudo lsof -i -P -n | grep LISTEN
+```
+or
+```
+lsof -i -P -n
+```
+or
+```
+-tulpn | grep LISTEN
 ```
