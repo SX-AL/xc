@@ -16,6 +16,9 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-using-
 ```
 https://dev.mysql.com/doc/refman/5.7/en/mysqldump.html
 ```
+```
+https://gist.github.com/fevangelou/fb72f36bbe333e059b66
+```
 
 ## INSTALL NEW EARLY RELEASE!
 
