@@ -267,7 +267,14 @@ or
 ```
 
 ## IP-TABLES
-Check IF ip is blocked/logged: ```iptables -L INPUT -v -n | grep "IPAddressHERE"```
+Check IF ip is blocked/logged: 
+```
+iptables -L INPUT -v -n | grep "IPAddressHERE"
+```
+RUN this command on all your servers manually, it will remove all the Block IP and allow all IP
+```
+sudo iptables -P INPUT ACCEPT && iptables -P FORWARD ACCEPT && iptables -P OUTPUT ACCEPT && iptables -t nat -F && iptables -t mangle -F && iptables -F && iptables -X
+```
 
 ## CHECK IP/MAG ON LOGS SCANNED OR BLOCKED
 ```
