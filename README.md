@@ -13,6 +13,9 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-u
 ```
 https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-using-iptables-on-ubuntu-14-04
 ```
+```
+https://dev.mysql.com/doc/refman/5.7/en/mysqldump.html
+```
 
 ## INSTALL NEW EARLY RELEASE!
 
