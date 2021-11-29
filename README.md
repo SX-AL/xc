@@ -203,11 +203,13 @@ or
 ## RESTART MYSQL UBUNTU 18 & 14
 
 BEFORE MAKE THIS:
-restart sql U14:  `service mysql restart`
-restart sql U18: `/etc/init.d/mysql restart`
+restart sql U14:  ```service mysql restart```
+restart sql U18: ```/etc/init.d/mysql restart```
 Truncate MySQL logs: 
-`truncate /var/lib/mysql/mysql_error.log --size 0`
-`truncate /var/log/mysql/error.log --size 0`
+```
+truncate /var/lib/mysql/mysql_error.log --size 0
+truncate /var/log/mysql/error.log --size 0
+```
 check mysql status: `service mysql status` 
 
 check mysql.service: `sudo nano /lib/systemd/system/mysql.service`
