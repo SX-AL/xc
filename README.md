@@ -22,6 +22,9 @@ https://gist.github.com/fevangelou/fb72f36bbe333e059b66
 ```
 https://www.globo.tech/learning-center/tweak-mysql-server/
 ```
+```
+https://linuxize.com/post/remove-directory-linux/
+```
 
 ## INSTALL NEW EARLY RELEASE!
 
