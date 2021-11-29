@@ -210,8 +210,10 @@ or
 
 restart sql U14:  
 ```service mysql restart```
+
 restart sql U18: 
 ```/etc/init.d/mysql restart```
+
 Truncate MySQL logs: 
 ```
 truncate /var/lib/mysql/mysql_error.log --size 0
