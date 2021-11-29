@@ -259,3 +259,18 @@ or
 
 ## IP-TABLES
 Check IF ip is blocked/logged: ```iptables -L INPUT -v -n | grep "IPAddressHERE"```
+
+## CHECK IP/MAG ON LOGS SCANNED OR BLOCKED
+```
+grep -c "IPHEREORMAG" /home/xtreamcodes/iptv_xtream_codes/logs/*.log
+```
+```
+grep -c "IPHEREORMAG" /home/xtreamcodes/iptv_xtream_codes/logs/error.log
+```
+```
+grep "IPHEREORMAG" /home/xtreamcodes/iptv_xtream_codes/magscan/logs/*.txt
+```
+or
+```
+grep -rnw /home/xtreamcodes/iptv_xtream_codes -e 'User_IP_Mag_Here' > CheckScanLog.txt
+```
