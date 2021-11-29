@@ -290,3 +290,23 @@ or
 ```
 grep -rnw /home/xtreamcodes/iptv_xtream_codes -e 'User_IP_Mag_Here' > CheckScanLog.txt
 ```
+
+## DELETE XTREAMCODES COMPLETELY FROM SERVER
+```
+sudo pkill -9 nginx
+sudo pkill -9 php
+sudo pkill -9 php && /home/xtreamcodes/iptv_xtream_codes/php/sbin/php-fpm
+sudo pgrep -u xtreamcodes
+rm -rf /usr/bin/ffprobe
+rm -rf /usr/bin/ffmpeg
+crontab -u xtreamcodes -e
+crontab -r -u xtreamcodes
+killall -KILL -u xtreamcodes
+userdel -r -f xtreamcodes
+if u get error saying cnt as in use
+umount -l /home/xtreamcodes/iptv_xtream_codes/tmp
+umount -l /home/xtreamcodes/iptv_xtream_codes/streams
+remove immunity from geolite2
+chattr -i /home/xtreamcodes/iptv_xtream_codes/GeoLite2.mmdb
+rm -rf /home/xtreamcodes/
+```
