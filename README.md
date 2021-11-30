@@ -28,6 +28,9 @@ https://linuxize.com/post/remove-directory-linux/
 ```
 https://linuxize.com/post/grep-multiple-patterns/
 ```
+```
+http://kbeezie.com/securing-nginx-php/2/
+```
 
 ## INSTALL NEW EARLY RELEASE!
 
