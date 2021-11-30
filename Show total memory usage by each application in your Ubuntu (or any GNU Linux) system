@@ -1,6 +1,11 @@
-If you are a GNU Linux user it is very likely that you would already know about the command top that allows you to see the memory and processor usage by each process in your system. However you would see multiple processes for applications like Chromium or Firefox for each of the tabs that are open in them. Similarly you could see apache run multiple processes if you have it configured to do so. What if you want to see the total memory usage for each application and not by each process. Here is a small bash script to help you do the same.
+If you are a GNU Linux user it is very likely that you would already know about the command top that allows you to see the memory 
+and processor usage by each process in your system. However you would see multiple processes for applications like Chromium or Firefox 
+for each of the tabs that are open in them. Similarly you could see apache run multiple processes if you have it configured to do so. 
+What if you want to see the total memory usage for each application and not by each process. 
+Here is a small bash script to help you do the same.
 
-Copy the following and save as ls-mem (or whatever name you wish to name it as) and then add it to a folder which is in your $PATH variable. It could be ~/bin or /usr/local/bin based on whether you have permissions to these folders and based on whether the folder is in the $PATH variable.
+Copy the following and save as ls-mem (or whatever name you wish to name it as) and then add it to a folder which is in your $PATH variable. 
+It could be ~/bin or /usr/local/bin based on whether you have permissions to these folders and based on whether the folder is in the $PATH variable.
 
 
 ```
